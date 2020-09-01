@@ -1,6 +1,5 @@
 #' @importFrom devtools github_pull
 #' @export
-devtools::github_pull
 
 get_package_list <- function() {
   if(!exists("package_list", envir = .options)) {
