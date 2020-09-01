@@ -3,11 +3,16 @@
 #' @importFrom data.table fread
 #'
 #' @export
-gh_update_package_list <- function() {
-  download_url <- "https://raw.githubusercontent.com/hoxo-m/gepuro-task-views-copy/master/package_list.txt"
-  package_list <- fread(download_url, sep="\t", header = FALSE, stringsAsFactors = FALSE,
-                        colClasses = c("character", "character", "character"), 
-                        col.names = c("username", "package_name", "title"),
-                        showProgress = FALSE, na.strings=NULL)
+gh_update_package_list <- function(owner_name = "bd-r") {
+  
+  repos_url <- 
+    sprintf("https://api.github.com/orgs/%s/repos",
+            owner_name)
+  download_repos <- jsonlite::fromJSON(repos_url)
+  
+  package_list <- data.table::data.table(
+                            username = download_repos$owner$login,
+                            package_name = download_repos$name,
+                            title = download_repos$description)
   assign("package_list", package_list, envir = .options)
 }

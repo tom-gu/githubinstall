@@ -1,0 +1,23 @@
+bd-R	bdclean	User-friendly data cleaning pipeline for the inexperienced R user
+bd-R	Testing-Interest_Group	Watch this repository if you want to take part in our code testing 
+bd-R	bdtools	tools for biodiversity data exploration & analysis
+bd-R	bdchecks	An infrastructure for biodiversity data checks
+bd-R	bdutilities	bdverse supporting functionality
+bd-R	bdvis	Biodiversity data Visualizations in R
+bd-R	bdDwC-guide	bdDwC R package user guide repo,  constructed using bookdown, see:
+bd-R	The-bdverse	The bdverse (Jekyll based) website repo
+bd-R	bdclean-guide	bdclean R package user guide repo,  constructed using bookdown, see:
+bd-R	bdchecks-guide	bdchecks R package user guide repo,  constructed using bookdown, see:
+bd-R	bdverse-website	The bdverse website | Built using blogdown; theme: hugo-fresh
+bd-R	bdverse	The main installation package to all bdverse packages
+bd-R	bddwc.app	Graphical Interface for Darwinizer App
+bd-R	bdverse-docker	Building; tagging; pushing and running bdverse's images
+bd-R	dashboard.demo	Biodiversity Visualization Dashboards.
+bd-R	bdchecks.app	Graphical Interface for bdchecks App
+bd-R	bdverse-user-guide	bdverse's complete user guide :construction: :construction_worker: :construction:
+bd-R	bdverse-dev-guide	bdverse's development guide :construction: :construction_worker: :construction:
+bd-R	bdutilities.app	bdverse supporting UI functionality
+bd-R	bdtests	A testing and 'devtools like' package for bdverse package development (in-house package)
+bd-R	bdDwC	Field names conversion to Darwin Core (DwC) Format
+bd-R	bdgraphics	bdverse's graphics library: one place to store/update/link all our graphic files
+bd-R	bdmonitor	R package for monitoring bdverse packages
